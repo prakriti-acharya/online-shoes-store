@@ -2,3 +2,53 @@
     margin: 0;
     padding: 0;
 }
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .footer-content div {
+    margin: 10px;
+  }
+  .footer-content h4 {
+    margin-bottom: 10px;
+  }
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-content ul li a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  .footer-content ul li a:hover {
+    color: #fff;
+  }
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }
+  .social-media a {
+    display: inline-flex;
+    align-items: center;
+    margin: 5px 10px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .social-media a i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 20px;  /* Icon size */
+  }
+  .social-media a:hover {
+    color: #fff;
+  }
+  
+  
